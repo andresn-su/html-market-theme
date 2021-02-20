@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--  
+        Template By André S. N.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | TudoPhone</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--    Navbar      -->
+    <div class="navbar-fixed">
+        <nav class="blue darken-4 z-depth-3">
+            <div class="nav-wrapper" style="padding-left: 20px; padding-right: 20px;">
+                <!-- Logo -->
+                <a href="#!" class="brand-logo">
+                    TudoPhone
+                </a>
+
+                <!-- Sidenav Trigger -->
+                <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                    <i class="material-icons">menu</i>
+                </a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="products.html">Acessórios</a></li>
+                    <li><a href="products.html">Smartphones</a></li>
+                    <li><a href="products.html">Notebooks</a></li>
+                    <li><a href="products.html">Tablets</a></li>
+                    <li><a href="account.html">Minha Conta</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                    <li>
+                        <a href="cart.html"><i class="material-icons">shopping_cart</i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="products.html">Acessórios</a></li>
+        <li><a href="products.html">Smartphones</a></li>
+        <li><a href="products.html">Notebooks</a></li>
+        <li><a href="products.html">Tablets</a></li>
+        <li><a href="account.html">Minha Conta</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="contact.html">Contato</a></li>
+        <hr>   
+        <li>
+            <a href="cart.html"><i class="material-icons">shopping_cart</i></a>
+        </li>
+    </ul>
+
+    <!-- Fim Navbar         -->
+
+
+    
+    <!--    Campo de Pesquisa      -->
+    <div class="container row py-3">
+        <div class="col s9 m11">
+            <div class="input-field">
+                <input id="text_inline" type="text">
+                <label for="text_inline">Pesquisar...</label>
+            </div>
+        </div>
+        <div class="col s3 m1">
+            <a class="btn-floating btn-large waves-effect waves-light blue darken-4">
+                <i class="material-icons">search</i>
+            </a>
+        </div>
+    </div>
+
+
+    
+    <!--    Account     -->
+
+
+    <div class="row py-3">
+        <div class="col s12 m8">
+            <div class="box-outline">
+                <div class="blue darken-4 py-1 px-1 white-text">
+                    Itens do Carrinho
+                </div>
+    
+                <!--    Itens Do Carrinho       -->
+                <table class="striped">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWE74dOdYOs-MQiMDpYHyyz-oFR6c3Nw8-02_yBr2-dvoCAqv_&usqp=CAU" alt="Produto 1">
+                                <div class="name-product">Moto G 8 Plus</div>
+                            </td>
+                            <td>
+                                R$899,00
+                            </td>
+                            <td>
+                                <input type="number" name="" id="" min="0" max="10" value="1">
+                            </td>
+                            <td>
+                                R$899,00
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="https://images-americanas.b2w.io/produtos/01/00/img7/01/00/item/134218/1/134218144_1GG.jpg" alt="Produto 1">
+                                <div class="name-product">Moto G 8 Plus</div>
+                            </td>
+                            <td>
+                                R$899,00
+                            </td>
+                            <td>
+                                <input type="number" name="" id="" min="0" max="10" value="1">
+                            </td>
+                            <td>
+                                R$899,00
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTkRJ885k-q1dqyYvhvXcFUKVlA78OUr4QMXZofDR6RrfKl4ZNg&usqp=CAU" alt="Produto 1">
+                                <div class="name-product">Moto G 8 Plus</div>
+                            </td>
+                            <td>
+                                R$899,00
+                            </td>
+                            <td>
+                                <input type="number" name="" id="" min="0" max="10" value="1">
+                            </td>
+                            <td>
+                                R$899,00
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="center">
+                                <a href="#!" class="btn blue darken-4 waves-effect waves-light">
+                                    Salvar Alterações
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+        <!--    Checkout        -->
+
+        <div class="col s12 m4">
+            <div class="blue darken-4 py-1 px-1 white-text">
+                Checkout
+            </div>
+            <div class="box-outline px-1 py-1">
+                <div>
+                    Preço Total
+                    <span class="right">R$12,00</span>
+                </div>
+                <div>
+                    Frete
+                    <span class="right">R$24,00</span>
+                </div>
+                <div>
+                    Valor Total
+                    <span class="right">R$36,00</span>
+                </div>
+                <div class="py-1">
+                    <div style="width: 100%;" class="btn waves-effect waves-dark white black-text">
+                        Adicionar Endereço
+                    </div>
+                    <br><br>
+                    <div style="width: 100%;" class="btn waves-effect waves-light blue darken-4">
+                        Finalizar Compra
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+    <!-- Footer     ------------------------------- -->
+
+
+
+
+<footer class="blue darken-4 py-3 white-text">
+    <div class="container">
+        <div class="text-logo">
+            TudoPhone
+        </div>
+        
+        <div class="row">
+
+            <!--    Contato    -->
+            <div class="col s12 m4">
+                <p>
+                    <div style="font-size: 22px;">Contate-nos:</div>
+                    <ul>
+                        <li>
+                            <i class="material-icons">room</i>
+                            Rua Fulano de Tal, N° 89, Centro, Las Vegas
+                        </li>
+                        <li>
+                            <i class="material-icons">call</i>
+                            (##) #####-####
+                        </li>
+                        <li>
+                            <i class="material-icons">email</i>
+                            contato@tudophone.com.br
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+
+            <!--    Sobre a Conta   -->
+            <div class="col s12 m4">
+                <p>
+                    <div class="" style="font-size: 22px;">
+                        Conta
+                    </div>
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <i class="material-icons">person</i>
+                            Minha Conta
+                        </li>
+                        <li>
+                            <i class="material-icons">shopping_cart</i>
+                            Carrinho
+                        </li>
+                        <li>
+                            <i class="material-icons">star</i>
+                            Lista de Desejos
+                        </li>
+                        <li>
+                            <i class="material-icons">visibility</i>
+                            Vistos Recentemente
+                        </li>
+                        <li>
+                            <i class="material-icons">settings</i>
+                            Configurações
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+
+            <!--    Links Úteis    -->
+            <div class="col s12 m4">
+                <p>
+                    <div style="font-size: 22px;">Links Úteis</div>
+                    <ul>
+                        <li>
+                            <i class="material-icons">star</i>
+                            Mais Vistos
+                        </li>
+                        <li>
+                            <i class="material-icons">visibility</i>
+                            Visualizados Recentemente
+                        </li>
+                        <li>
+                            <i class="material-icons">attach_money</i>
+                            Melhores Promoções
+                        </li>
+                        <li>
+                            <i class="material-icons">tablet_android</i>
+                            Produtos Recentes
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+
+        <hr>
+
+        <div class="right-align">
+            Copyright &copy; 2020 - TudoPhone
+            |
+            <a href="#">Política de Privacidade</a>
+        </div>
+
+    </div>
+</footer>
+
+    
+        
+      
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
